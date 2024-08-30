@@ -1,11 +1,18 @@
 .cells{
     height: 100px;
     width: 100px;
-    border: 2px solid rgb(71, 42, 4);
-    box-shadow: 0px 0px 20px black;
-    /* background-color: rgb(233, 219, 219); */
+    border: 2px solid rgb(148, 87, 8);
+    box-shadow: 0px 0px 10px black;
+    color: rgb(209, 194, 194);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 800;
+    font-size: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-shadow: 0px 5px 5px rgb(8, 8, 8);
 }
 .cells:hover{
-    background-color: rgba(245, 143, 35, 0.322);
+    background-color: rgba(15, 15, 15, 0.473);
     cursor: pointer;
 }
