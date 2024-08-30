@@ -5,10 +5,25 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>TIC TAC TOE</title>
   <link href="./output.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <h1 class="text-3xl font-bold ">
-    Hello world!
-  </h1>
+  <div class="board h-[100vh] w-[100vw] bg-black flex  justify-center items-center" id="board" >
+    <div class="grid grid-cols-3 gap-0">
+        <div class="cells" data-cell></div>
+        <div class="cells" data-cell></div>
+        <div class="cells" data-cell></div>
+        <div class="cells" data-cell></div>
+        <div class="cells" data-cell></div>
+        <div class="cells" data-cell></div>
+        <div class="cells" data-cell></div>
+        <div class="cells" data-cell></div>
+        <div class="cells" data-cell></div>
+    </div>
+  </div>
+  <div class="wining-message" id="winingMessage">
+        <div data-winning-message-text></div>
+        <button class="restartButton">Restart</button>
+  </div>
 </body>
 </html>
