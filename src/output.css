@@ -686,6 +686,95 @@ video {
   background-color: rgb(30 41 59 / var(--tw-bg-opacity));
 }
 
+.bg-orange-700 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(194 65 12 / var(--tw-bg-opacity));
+}
+
+.bg-\[url\] {
+  background-color: url;
+}
+
+.bg-\[url\(\'\/img\/hero-pattern\.svg\'\)\] {
+  background-image: url('/img/hero-pattern.svg');
+}
+
+.bg-\[url\(\'\/\'\)\] {
+  background-image: url('/');
+}
+
+.bg-\[url\(\'\/a\'\)\] {
+  background-image: url('/a');
+}
+
+.bg-\[url\(\'\.\/assets\/\'\)\] {
+  background-image: url('./assets/');
+}
+
+.bg-\[url\(\'\.\/assets\/bacgroun\'\)\] {
+  background-image: url('./assets/bacgroun');
+}
+
+.bg-\[url\(\'\.\/assets\/bacground\.jpeg\'\)\] {
+  background-image: url('./assets/bacground.jpeg');
+}
+
+.bg-\[url\(\'\.\/assets\/background\.jpeg\'\)\] {
+  background-image: url('./assets/background.jpeg');
+}
+
+.bg-\[url\(\'\/assets\/background\.jpeg\'\)\] {
+  background-image: url('/assets/background.jpeg');
+}
+
+.bg-\[url\(\"\"\)\] {
+  background-image: url("");
+}
+
+.bg-\[url\(\'\'\)\] {
+  background-image: url('');
+}
+
+.bg-\[url\(\'\/ass\'\)\] {
+  background-image: url('/ass');
+}
+
+.bg-\[url\(\'\/assets\/background\.\'\)\] {
+  background-image: url('/assets/background.');
+}
+
+.bg-\[url\(\'\/background\.\'\)\] {
+  background-image: url('/background.');
+}
+
+.bg-\[url\(\'\/background\.jpg\'\)\] {
+  background-image: url('/background.jpg');
+}
+
+.bg-\[url\(\'\/assets\/background\.jpg\'\)\] {
+  background-image: url('/assets/background.jpg');
+}
+
+.bg-auto {
+  background-size: auto;
+}
+
+.bg-cover {
+  background-size: cover;
+}
+
+.bg-contain {
+  background-size: contain;
+}
+
+.bg-center {
+  background-position: center;
+}
+
+.bg-no-repeat {
+  background-repeat: no-repeat;
+}
+
 .align-middle {
   vertical-align: middle;
 }

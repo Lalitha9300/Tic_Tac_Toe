@@ -8,8 +8,8 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <div class="board h-[100vh] w-[100vw] bg-black flex  justify-center items-center" id="board" >
-    <div class="grid grid-cols-3 gap-0">
+  <div class="board h-[100vh] w-[100vw] bg-black bg-[url('/assets/background.jpg')] bg-no-repeat bg-center bg-contain flex justify-center items-center" id="board" >
+    <div class="grid grid-cols-3 gap-0 ">
         <div class="cells" data-cell></div>
         <div class="cells" data-cell></div>
         <div class="cells" data-cell></div>
@@ -25,5 +25,6 @@
         <div data-winning-message-text></div>
         <button class="restartButton">Restart</button>
   </div>
+  <script src="script.js"></script>
 </body>
 </html>
